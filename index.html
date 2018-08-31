@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Stardew Museum Checklist</title>
+    <meta name="description"
+          content="A lightweight way to track your progress in donating to the Stardew Valley museum">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<header>
+    <h1>Stardew Valley Museum Checklist</h1>
+</header>
+
+<main>
+    <div class="item">
+        <label><input type="checkbox" class="done"/></label>
+        <img src="https://stardewvalleywiki.com/mediawiki/images/b/b9/Dwarf_Scroll_I.png">
+        <p>Dwarf Scroll I</p>
+    </div>
+    <div class="item">
+        <label><input type="checkbox" class="done"/></label>
+        <img src="https://stardewvalleywiki.com/mediawiki/images/c/ca/Dwarf_Scroll_II.png">
+        <p>Dwarf Scroll II</p>
+    </div>
+    <div class="item">
+        <label><input type="checkbox" class="done"/></label>
+        <img src="https://stardewvalleywiki.com/mediawiki/images/e/ec/Dwarf_Scroll_III.png">
+        <p>Dwarf Scroll III</p>
+    </div>
+    <div class="item">
+        <label><input type="checkbox" class="done"/></label>
+        <img src="https://stardewvalleywiki.com/mediawiki/images/8/85/Dwarf_Scroll_IV.png">
+        <p>Dwarf Scroll IV</p>
+    </div>
+
+    <!-- Remaining items -->
+    <div>
+        <span class="item-count"><strong id="items-left"></strong> items left</span>
+    </div>
+</main>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-19228491-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', 'UA-19228491-7');
+</script>
+</body>
+
+</html>
